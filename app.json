@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "filter-test",
-    "slug": "filter-test",
+    "name": "firebase-notification-test",
+    "slug": "firebase-notification-test",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
