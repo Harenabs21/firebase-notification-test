@@ -17,7 +17,7 @@
           "backgroundColor": "#ffffff"
         },
         "package": "com.firebase.notificationTest",
-        "googleServicesFile": "./google-sevices.json"
+        "googleServicesFile": "./google-services.json"
       },
       "web": {
         "bundler": "metro",

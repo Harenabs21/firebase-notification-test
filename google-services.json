@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "113482446721",
+    "project_id": "fir-notification-test-fa605",
+    "storage_bucket": "fir-notification-test-fa605.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113482446721:android:50dcb242cbcc4894e3da80",
+        "android_client_info": {
+          "package_name": "com.firebase.notificationTest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAegCcao-SLRvVpcGrUKe0jzU4nr9wnqBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
