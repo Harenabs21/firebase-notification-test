@@ -6,7 +6,7 @@ import React from 'react';
 import { useFCMNotifications } from '@/hooks/useFCMNotifications';
 
 export default function TabTwoScreen() {
-  const { fcmToken, notification } = useFCMNotifications();
+  const {  notification } = useFCMNotifications();
 
   return (
     <ParallaxScrollView
@@ -22,11 +22,6 @@ export default function TabTwoScreen() {
     >
       <View style={styles.container}>
         <Text style={styles.title}>Notifications Firebase avec FCM</Text>
-        <Text style={styles.label}>FCM Token :</Text>
-        <Text selectable style={styles.token}>
-          {fcmToken || 'Token non disponible'}
-        </Text>
-
         {notification && (
           <View style={styles.notificationContainer}>
             <Text style={styles.label}>Dernière notification reçue :</Text>
