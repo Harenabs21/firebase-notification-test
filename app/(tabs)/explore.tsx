@@ -6,7 +6,7 @@ import React from 'react';
 import { useFCMNotifications } from '@/hooks/useFCMNotifications';
 
 export default function TabTwoScreen() {
-  const {  notification } = useFCMNotifications();
+  const { notification } = useFCMNotifications();
 
   return (
     <ParallaxScrollView
@@ -25,13 +25,10 @@ export default function TabTwoScreen() {
         {notification && (
           <View style={styles.notificationContainer}>
             <Text style={styles.label}>Dernière notification reçue :</Text>
-            <Text style={styles.notificationText}>
-              {JSON.stringify(notification.notification?.body, null, 2)}
-            </Text>
+            <Text style={styles.notificationText}>{JSON.stringify(notification.notification?.body, null, 2)}</Text>
           </View>
         )}
-    </View>
-      
+      </View>
     </ParallaxScrollView>
   );
 }

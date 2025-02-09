@@ -1,8 +1,6 @@
 // useFCMNotifications.ts
 import { useEffect, useState } from 'react';
-import messaging, {
-  FirebaseMessagingTypes,
-} from '@react-native-firebase/messaging';
+import messaging, { FirebaseMessagingTypes } from '@react-native-firebase/messaging';
 import { Alert } from 'react-native';
 
 interface UseFCMNotificationsResult {
@@ -29,7 +27,7 @@ export function useFCMNotifications(): UseFCMNotificationsResult {
         authStatus === messaging.AuthorizationStatus.PROVISIONAL;
 
       if (!enabled) {
-        Alert.alert("Permission refusée", "Les notifications ne seront pas activées.");
+        Alert.alert('Permission refusée', 'Les notifications ne seront pas activées.');
         return;
       }
 
@@ -38,7 +36,7 @@ export function useFCMNotifications(): UseFCMNotificationsResult {
         setFcmToken(token);
         console.log('FCM Token:', token);
       } catch (error) {
-        console.error("Erreur lors de la récupération du token FCM", error);
+        console.error('Erreur lors de la récupération du token FCM', error);
       }
     }
 
