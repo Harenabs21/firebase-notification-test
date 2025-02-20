@@ -13,8 +13,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/firebase_28dp.png",
+        "backgroundColor": "#059BE5"
       },
       "package": "com.firebase.notificationTest",
       "googleServicesFile": "./google-services.json"
@@ -29,10 +29,10 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/firebase_28dp.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#059BE5"
         }
       ],
       "@react-native-firebase/app",
